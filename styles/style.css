@@ -11,7 +11,7 @@
 */
 
 .page {
-  font-family: var(--main-font) sans-serif;
+  font-family: var(--main-font);
   background-image: var(--gradient-background);
   background-repeat: no-repeat;
   background-size: cover;
