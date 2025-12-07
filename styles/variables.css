@@ -1,1 +1,39 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+  --main-font: "Inter";
+  --accent-font: "PressStart2P";
+  --card-text-weight: 410;
+  --card-title-weight: 715;
+  --gradient-background:
+    repeating-linear-gradient(
+      to right,
+      #d3d3d3 0,
+      #d3d3d3 2px,
+      transparent 2px,
+      transparent 4px
+    ),
+    repeating-linear-gradient(
+      to bottom,
+      #d3d3d3 0,
+      #d3d3d3 2px,
+      transparent 2px,
+      transparent 4px
+    ),
+    linear-gradient(
+      to bottom,
+      #e7e7e7 0%,
+      #e7e7e7 0.01%,
+      #1a1a1a 100%
+    );
+    --block-size: clamp(23.4375rem, 16.2852rem + 30.5164vw, 43.7500rem);
+    --logo-size: clamp(3.0625rem, 2.7104rem + 1.5023vw, 4.0625rem);
+    --logo-text-size: clamp(0.8750rem, 0.6769rem + 0.8451vw, 1.4375rem);
+    --block-padding: clamp(7.6250rem, 7.4489rem + 0.7512vw, 8.1250rem) clamp(1.0000rem, -1.3438rem + 10.0000vw, 7.6563rem);
+    --image-size: clamp(23.1875rem, 16.0352rem + 30.5164vw, 43.5000rem);
+    --dialog-padding: 30px;
+    --dialog-mobile-padding: 30px 40px;
+    --dialog-size: clamp(21.3125rem, 21.0484rem + 1.1268vw, 22.0625rem);
+    --accent-color: #000;
+    --like-button-color: red;
+    --main-color: #FFF;
+}
